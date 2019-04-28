@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>CodingLabs - About me</title>
+        <link rel="stylesheet" href="{{mycss}}"/>
+        <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F75dfda8ff8a93fa0b94adeb17da37a2f' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</head>
+    <body onload="prettyPrint()" style="font-family:verdana">
+    <div id="header">
+        <div id="header-inner">
+            <div id="title"><h3><a href="/up">Mr. Taylor</a></h3></div>
+            <div id="subtitle">Test page for file transportation</div>
+        </div>
+    </div>
+
+<div id="main">
+    <div id="lookup_hash">
+        
+    </div>
+    <div id="main-inner">
+    <h3>查询的文件名/Hash为：{{name_or_hash}}</h3>
+    <h4>查询结果为：</h4>
+    {% autoescape on %}
+    {{result}}
+    {% endautoescape %}
+
+</div>
+
+</div>
+
+
+
+    </body>
+
+</html>

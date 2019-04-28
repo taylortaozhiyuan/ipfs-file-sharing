@@ -1,0 +1,1 @@
+{"tx_id": "QmWeWoqyc1MDyc94DUo42i8uuV69uujggD1HkFu5zGXAiP", "time": "", "initiator": "user1", "receiver": "user2", "file_hash": "QmUdUzu61qmD8CSsiwsYJFLaRNVWD4e2WmLiNMP746yjfy", "file_name": "a1234.txt", "clearence": "0", "position": "default", "department": "default", "sec_level": "default", "success": "0"}

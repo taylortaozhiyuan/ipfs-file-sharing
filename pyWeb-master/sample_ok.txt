@@ -1,0 +1,12 @@
+
+<html>
+<head>
+<meta http-equiv="refresh" content="20;url=/file"> 
+</head>
+<body>
+<p>  上传成功，hash为：</p>
+<script type="text/javascript">
+document.write("<h1>Hash</h1>");
+</script>
+</body>
+</html>

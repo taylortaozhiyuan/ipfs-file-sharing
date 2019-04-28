@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>testtao</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+//alert("test001dd");
+</script>
+</head>
+<body>
+<p><h1>taotao</h1></p>
+<script src="C:\Users\taylor\Documents\share\marbles\public\js\ui_events.js"></script>
+<script src=C:\Users\taylor\Documents\share\marbles\public\js\websocket.js></script>
+<script src="C:\Users\taylor\Documents\share\marbles\public\js\startup.js"></script>
+<script src="C:\Users\taylor\Documents\share\marbles\public\js\tx_story.js"></script>
+<script type="text/javascript">
+var $test ="hihihi";
+//alert($test);
+connect_to_server();
+var obj = {
+		type: 'createCert',
+		data1: "taotaotao",
+		data2: "tao",
+		data3: "tao",
+		data4: "tao",
+		data5: "tao",
+
+		data6: "tao",
+		data7: "tao",
+		data8: "tao",
+		data9: "tao",
+		data10: "tao",
+		data11: "tao",
+		data12: "tao",
+		data13: "tao",
+
+		username: "bupt",
+		company: "bupt",
+		owner_id: "o01554987265477ax3SD",
+		v: 1
+    };
+    show_tx_step({ state: 'building_proposal' }, function () {
+            ws.send(JSON.stringify(obj));
+            refreshHomePanel();
+    });
+</script>
+</body>
+</html>
